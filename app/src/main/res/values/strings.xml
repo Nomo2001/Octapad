@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Octapad</string>
+    <string name="btnDrums">Drums</string>
+    <string name="btnSnare">Snare</string>
+    <string name="btnRim">Rim Shot</string>
+    <string name="btnRec">"\u26AB"</string>
+    <string name="btnPlay">"\u25B6"</string>
+
+
+</resources>

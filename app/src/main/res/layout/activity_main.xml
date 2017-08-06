@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:weightSum="5.0"
+    >
+
+    <Button android:id="@+id/btnDrum"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnDrums"
+        android:layout_gravity="left"
+        android:layout_weight="1"
+        />
+    <Button android:id="@+id/btnSnare"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnSnare"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        />
+
+    <Button android:id="@+id/btnRim"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnRim"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        />
+
+    <Button
+        android:id="@+id/btnRecord"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:text="@string/btnRec" />
+
+    <Button
+        android:id="@+id/btnPlay"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:text="@string/btnPlay" />
+
+    <TextView
+        android:id="@+id/txtOut"
+        android:layout_width="match_parent"
+        android:layout_height="100dip"
+        android:layout_weight="1"
+        android:paddingTop="5dp"
+        android:text="Recording Appears Here"
+        android:textAlignment="center" />
+
+
+</LinearLayout>
+
